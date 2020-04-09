@@ -1,48 +1,49 @@
 import './styles/base.less';
 
-import {Confirm, Alert, Toast, Notify, Loading} from './components/dialog';
-import {Layout} from './components/layout';
-import {Button, ButtonGroup} from './components/button';
-import {NavBar, NavBarBackIcon, NavBarNextIcon} from './components/navbar';
-import {CellItem, CellGroup} from './components/cell';
-import {Switch} from './components/switch';
-import {GridsItem, GridsGroup} from './components/grids';
-import {Icons} from './components/icons';
-import {ListTheme, ListItem, ListOther} from './components/list';
-import {InfiniteScroll} from './components/infinitescroll';
-import {PullRefresh} from './components/pullrefresh';
-import {Badge, BadgeRadius} from './components/badge';
-import {TabBar, TabBarItem} from './components/tabbar';
-import {Tab, TabPanel} from './components/tab';
-import {ScrollTab, ScrollTabPanel} from './components/scrolltab';
-import {ActionSheet} from './components/actionsheet';
-import {SendCode} from './components/sendcode';
-import {KeyBoard} from './components/keyboard';
-import {Slider, SliderItem} from './components/slider';
-import {Spinner} from './components/spinner';
-import {CitySelect} from './components/cityselect';
-import {ProgressBar} from './components/progressbar';
-import {LazyImg} from './components/lazyimg';
-import {CountDown} from './components/countdown';
-import {Rate} from './components/rate';
-import {TextArea} from './components/textarea';
-import {Popup} from './components/popup';
-import {CountUp} from './components/countup';
-import {RollNotice, RollNoticeItem} from './components/rollnotice';
-import {Input} from './components/input';
-import {FlexBox, FlexBoxItem} from './components/flexbox';
-import {Radio, RadioGroup} from './components/radio';
-import {CheckBox, CheckBoxGroup} from './components/checkbox';
-import {BackTop} from './components/backtop';
-import {Accordion, AccordionItem} from './components/accordion';
-import {DateTime} from './components/datetime';
-import {LightBox, LightBoxImg, LightBoxTxt} from './components/lightbox';
 
-window.document.addEventListener('touchstart', function (event) {
+import { Confirm, Alert, Toast, Notify, Loading } from './components/dialog';
+import { Layout } from './components/layout';
+import { Button, ButtonGroup } from './components/button';
+import { NavBar, NavBarBackIcon, NavBarNextIcon } from './components/navbar';
+import { CellItem, CellGroup } from './components/cell';
+import { Switch } from './components/switch';
+import { GridsItem, GridsGroup } from './components/grids';
+import { Icons } from './components/icons';
+import { ListTheme, ListItem, ListOther } from './components/list';
+import { InfiniteScroll } from './components/infinitescroll';
+import { PullRefresh } from './components/pullrefresh';
+import { Badge, BadgeRadius } from './components/badge';
+import { TabBar, TabBarItem } from './components/tabbar';
+import { Tab, TabPanel } from './components/tab';
+import { ScrollTab, ScrollTabPanel } from './components/scrolltab';
+import { ActionSheet } from './components/actionsheet';
+import { SendCode } from './components/sendcode';
+import { KeyBoard } from './components/keyboard';
+import { Slider, SliderItem } from './components/slider';
+import { Spinner } from './components/spinner';
+import { CitySelect } from './components/cityselect';
+import { ProgressBar } from './components/progressbar';
+import { LazyImg } from './components/lazyimg';
+import { CountDown } from './components/countdown';
+import { Rate } from './components/rate';
+import { TextArea } from './components/textarea';
+import { Popup } from './components/popup';
+import { CountUp } from './components/countup';
+import { RollNotice, RollNoticeItem } from './components/rollnotice';
+import { Input } from './components/input';
+import { FlexBox, FlexBoxItem } from './components/flexbox';
+import { Radio, RadioGroup } from './components/radio';
+import { CheckBox, CheckBoxGroup } from './components/checkbox';
+import { BackTop } from './components/backtop';
+import { Accordion, AccordionItem } from './components/accordion';
+import { DateTime } from './components/datetime';
+import { LightBox, LightBoxImg, LightBoxTxt } from './components/lightbox';
+
+window.document.addEventListener('touchstart', function(event) {
     /* Do Nothing */
 }, false);
 
-const install = function (Vue) {
+const install = function(Vue) {
     Vue.component(Layout.name, Layout);
     Vue.component(Button.name, Button);
     Vue.component(ButtonGroup.name, ButtonGroup);
@@ -91,7 +92,7 @@ const install = function (Vue) {
     Vue.component(CheckBox.name, CheckBox);
     Vue.component(CheckBoxGroup.name, CheckBoxGroup);
     Vue.component(BackTop.name, BackTop);
-	Vue.component(Accordion.name, Accordion);
+    Vue.component(Accordion.name, Accordion);
     Vue.component(AccordionItem.name, AccordionItem);
     Vue.component(DateTime.name, DateTime);
     Vue.component(LightBox.name, LightBox);
